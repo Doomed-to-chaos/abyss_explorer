@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Fixedsys'; 
+  src: url('Fixedsys.ttf') format('truetype');
+  font-weight: 400; 
+  font-style: normal; 
+  font-display: swap; 
+}
+
+
+body {
+    background-color: black;
+}
+
+/* стили индекса */
+
+.p-index {
+    color: rgb(212, 212, 212);
+    font-family: 'Fixedsys';
+    font-size: 24px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.review-container {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgb(212, 212, 212);
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-bottom: 30px;
+}
+
+.review-img {
+    width: 700px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: rgb(212, 212, 212);
+    font-family: 'Fixedsys';
+    font-size: 27px;
+    margin-left: 740px;
+}
+
+/* стили страницы обзора */
+
+.heading {
+    color: rgb(212, 212, 212);
+    font-family: 'Fixedsys';
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.main-text {
+    color: rgb(212, 212, 212);
+    font-family: 'Fixedsys';
+    font-size: 18px;
+}
+
+.dot {
+    color: rgb(0, 0, 0);
+    font-family: 'Fixedsys';
+}
+.dot-2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Fixedsys';
+}
+
+.screenshot {
+    width: 700px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.note {
+    color: rgb(212, 212, 212);
+    font-family: 'Fixedsys';
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.main-container {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgb(212, 212, 212);
+}
+
+.decor {
+    display: block;
+    width: calc(100% - 700px); 
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* центровка пикчи */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
